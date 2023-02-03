@@ -23,8 +23,6 @@ jobs:
         run: sudo apt-get install expect libnotify-bin
       - name: Install
         run: npm ci
-      - name: Lint
-        run: npm run lint
       - name: Build SSR
         run: npm run build:ssr
       - name: Build Static

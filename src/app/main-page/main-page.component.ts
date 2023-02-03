@@ -22,15 +22,20 @@ export class MainPageComponent {
   }
 
   public toggleSidebar(value: boolean): void {
+    const body = document.getElementById('body');
     this.displaySidebar = value;
     if (value) {
       this.sidebarCss = {
-        position: 'absolute',
-        width: '60%',
+        position: 'fixed',
+        width: '100%',
         'max-width': 'unset',
+        top: 0,
+        'z-index': 1000
       };
+      body.classList.add('mobile-filter-open');
     } else {
       this.sidebarCss = {};
+      body.classList.remove('mobile-filter-open');
     }
   }
 
@@ -41,5 +46,13 @@ export class MainPageComponent {
   public handleError(showError: boolean): void {
     this.error = showError;
   }
+
+  // public onScroll(e) {
+  //   if (e.target.scrollTop > 60) {
+  //     document.getElementById('header-container').classList.add('header--sticky');
+  //   } else {
+  //     document.getElementById('header-container').classList.remove('header--sticky');
+  //   }
+  // }
 
 }

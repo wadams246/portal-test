@@ -36,11 +36,14 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
               "node_modules/bullhorn-icons/fonts/Bullhorn-Glyphicons.css",
-              "node_modules/roboto-fontface/css/roboto/roboto-fontface.css"
+              "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
+              "src/assets/bootstrap.min.css",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "dev": {

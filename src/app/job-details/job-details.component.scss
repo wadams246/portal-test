@@ -1,19 +1,19 @@
+@import '../../index.scss';
+
 .background{
-  overflow-x: hidden;
-  background-color: #F4F4F4;
-  max-height: calc(100vh - 55px);
-  height: calc(100vh - 55px);
+  background-color: #ffffff;
   .job-container {
-    margin: 0% 10%;
+    margin: 0% auto;
     padding: 5%;
     background-color: #FFFFFF;
+    max-width: 1300px;
     &.safari-scroll {
       height: 100%;
       overflow-y: scroll;
       -webkit-overflow-scrolling: touch;
     }
     >button[theme="dialogue"] {
-      margin: -10px -15px 20px -15px;
+      margin: 0 0 20px 0;
     }
     .job-description-text {
       word-break: break-word;
@@ -24,7 +24,17 @@
         display: flex;
         width: 100%;
         flex-wrap: wrap;
-
+        .job-info {
+          color: #0B344F;
+          padding: 10px 10px;
+          margin: 5px;
+          background-color: #ffffff;
+          border-radius: 8px;
+          align-self: center;
+          i {
+            font-size: 1em;
+          }
+        }
       }
       .job-title {
         font-size: 2em;
@@ -37,6 +47,7 @@
       margin-bottom: 100px;
       button {
         margin-right: 20px;
+        
       }
     }
     .category {
@@ -45,7 +56,7 @@
       font-size: 1.3em;
       word-wrap: break-word;
       overflow: hidden;
-      color: #4a89dc;
+      color: $primary-color;
       padding-top: 15px;
     }
   }

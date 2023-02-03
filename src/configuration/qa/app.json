@@ -9,7 +9,7 @@
     "rtf",
     "odt"
   ],
-  "companyName": "[ COMPANY NAME HERE ]",
+  "companyName": "CORE Staffing",
   "companyLogoPath": "",
   "companyUrl": "",
   "careersUrl": "",
@@ -32,9 +32,9 @@
   "maxUploadSize": 5242880,
   "service": {
     "batchSize": 500,
-    "corpToken": "1hs",
+    "corpToken": "9OXMW1",
     "port": 8182,
-    "swimlane": "-qa",
+    "swimlane": "42",
     "fields": [
       "id",
       "title",

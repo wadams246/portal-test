@@ -9,7 +9,7 @@
     "rtf",
     "odt"
   ],
-  "companyName": "[ COMPANY NAME HERE ]",
+  "companyName": "CORE Staffing",
   "companyLogoPath": "",
   "companyUrl": "",
   "careersUrl": "",
@@ -69,9 +69,9 @@
   "maxUploadSize": 5242880,
   "service": {
     "batchSize": 500,
-    "corpToken": "[ CORP TOKEN HERE ]",
+    "corpToken": "9OXMW1",
     "port": null,
-    "swimlane": "[ SWIMLANE HERE ]",
+    "swimlane": "42",
     "fields": [
       "id",
       "title",
@@ -111,9 +111,9 @@
     }
   },
   "eeoc": {
-    "genderRaceEthnicity": false,
-    "veteran": false,
-    "disability": false
+    "genderRaceEthnicity": true,
+    "veteran": true,
+    "disability": true
   },
   "privacyConsent": {
     "consentCheckbox": false,

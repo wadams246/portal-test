@@ -1,5 +1,7 @@
+@import '../../index.scss';
+
 :host {
-  background-color: #f4f4f4;
+  background-color: #fff;
   &::-webkit-scrollbar {
     background-color: #fff;
     height: 4px;
@@ -33,6 +35,8 @@
     }
   }
   @media only screen and (max-width: 768px) {
+    height: 100%;
+    overflow: auto;
     position: absolute;
     left: -80%;
     transition: all 0.2s ease-in-out;
@@ -59,7 +63,8 @@
     display: flex;
   }
   a.privacy-policy-link {
-    padding: 0px 20px;
+    color: $primary-color;
+    padding: 20px;
   }
 }
 .preferredLanguageDropdown {
